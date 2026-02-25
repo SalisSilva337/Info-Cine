@@ -1,8 +1,8 @@
-🎬 Documentação – INFO-CINE
+<h1>🎬 Documentação – INFO-CINE</h1>
 
 <img width="1905" height="898" alt="image" src="https://github.com/user-attachments/assets/12b12f87-cc25-4078-af7c-39be8c39c533" />
 
-📌 Visão Geral
+<h2>📌Visão Geral </h2>
 
 INFO-CINE é uma aplicação web desenvolvida com React + TypeScript que consome dados da API do The Movie Database (TMDB) para exibir informações sobre filmes, como:
 
@@ -14,7 +14,7 @@ INFO-CINE é uma aplicação web desenvolvida com React + TypeScript que consome
 
 O objetivo do projeto é fornecer uma interface moderna e intuitiva para consulta de informações cinematográficas.
 
-🛠️ Tecnologias Utilizadas
+<h2>🛠️ Tecnologias Utilizadas </h2>
 
 React – Biblioteca para construção da interface
 
