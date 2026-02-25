@@ -1,6 +1,6 @@
 🎬 Documentação – INFO-CINE
 
-<img width="1893" height="882" alt="Captura de tela 2026-02-25 124753" src="https://github.com/user-attachments/assets/ea13a17e-be15-4230-a352-07a5b33cf20e" />
+<img width="1905" height="898" alt="image" src="https://github.com/user-attachments/assets/12b12f87-cc25-4078-af7c-39be8c39c533" />
 
 📌 Visão Geral
 
