@@ -1,73 +1,25 @@
-# React + TypeScript + Vite
+🎬 Documentação – INFO-CINE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1893" height="882" alt="Captura de tela 2026-02-25 124753" src="https://github.com/user-attachments/assets/ea13a17e-be15-4230-a352-07a5b33cf20e" />
 
-Currently, two official plugins are available:
+📌 Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+INFO-CINE é uma aplicação web desenvolvida com React + TypeScript que consome dados da API do The Movie Database (TMDB) para exibir informações sobre filmes, como:
 
-## React Compiler
+🎥 Cartazes (posters)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📅 Datas de lançamento
 
-## Expanding the ESLint configuration
+🔎 Pesquisa de filmes
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+O objetivo do projeto é fornecer uma interface moderna e intuitiva para consulta de informações cinematográficas.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🛠️ Tecnologias Utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+React – Biblioteca para construção da interface
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+TypeScript – Tipagem estática para maior segurança no código
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Vite – Bundler e ambiente de desenvolvimento
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+TMDB API – Fonte de dados
